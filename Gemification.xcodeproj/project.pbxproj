@@ -118,6 +118,8 @@
 		0E47ED7A1D6B30DE00468B08 /* Gemification */ = {
 			isa = PBXGroup;
 			children = (
+				0E739D721D6C7A20000D3409 /* Images */,
+				0E739D731D6C7A20000D3409 /* MVC */,
 				0E47ED7E1D6B30DE00468B08 /* AppDelegate.h */,
 				0E47ED7F1D6B30DE00468B08 /* AppDelegate.m */,
 				0E47ED811D6B30DE00468B08 /* ViewController.h */,
@@ -155,6 +157,28 @@
 				0E47EDA21D6B30DF00468B08 /* Info.plist */,
 			);
 			path = GemificationUITests;
+			sourceTree = "<group>";
+		};
+		0E739D721D6C7A20000D3409 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0E739D731D6C7A20000D3409 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				0E739D741D6C7A2A000D3409 /* LoginViewController */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		0E739D741D6C7A2A000D3409 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LoginViewController;
 			sourceTree = "<group>";
 		};
 		A6D335A607F8A07380F9586D /* Pods */ = {
