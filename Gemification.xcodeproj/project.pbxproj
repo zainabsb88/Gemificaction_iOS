@@ -30,6 +30,9 @@
 		0E47ED8B1D6B30DE00468B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E47ED891D6B30DE00468B08 /* LaunchScreen.storyboard */; };
 		0E47ED961D6B30DF00468B08 /* GemificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E47ED951D6B30DF00468B08 /* GemificationTests.m */; };
 		0E47EDA11D6B30DF00468B08 /* GemificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E47EDA01D6B30DF00468B08 /* GemificationUITests.m */; };
+		0EA999661D7A212200CF7C48 /* ProductAreaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA999651D7A212200CF7C48 /* ProductAreaTableViewCell.m */; };
+		0EA9996A1D7A280F00CF7C48 /* ProductAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA999691D7A280F00CF7C48 /* ProductAreaViewController.m */; };
+		0EA9996E1D7A303600CF7C48 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9996D1D7A303600CF7C48 /* ProductDetailViewController.m */; };
 		6980521435FB1F3860003FE9 /* libPods-GemificationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A96FD8AC6794837E3FEC105 /* libPods-GemificationUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +97,12 @@
 		0E47ED9C1D6B30DF00468B08 /* GemificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E47EDA01D6B30DF00468B08 /* GemificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemificationUITests.m; sourceTree = "<group>"; };
 		0E47EDA21D6B30DF00468B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA999641D7A212200CF7C48 /* ProductAreaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductAreaTableViewCell.h; path = ProductAreaTableViewCell/ProductAreaTableViewCell.h; sourceTree = "<group>"; };
+		0EA999651D7A212200CF7C48 /* ProductAreaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductAreaTableViewCell.m; path = ProductAreaTableViewCell/ProductAreaTableViewCell.m; sourceTree = "<group>"; };
+		0EA999681D7A280F00CF7C48 /* ProductAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductAreaViewController.h; path = ProductAreaViewController/ProductAreaViewController.h; sourceTree = "<group>"; };
+		0EA999691D7A280F00CF7C48 /* ProductAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductAreaViewController.m; path = ProductAreaViewController/ProductAreaViewController.m; sourceTree = "<group>"; };
+		0EA9996C1D7A303600CF7C48 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductDetailViewController.h; path = ProductDetailViewController/ProductDetailViewController.h; sourceTree = "<group>"; };
+		0EA9996D1D7A303600CF7C48 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductDetailViewController.m; path = ProductDetailViewController/ProductDetailViewController.m; sourceTree = "<group>"; };
 		2120A5D046802887B04FB307 /* Pods-Gemification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gemification.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gemification/Pods-Gemification.release.xcconfig"; sourceTree = "<group>"; };
 		3A96FD8AC6794837E3FEC105 /* libPods-GemificationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GemificationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD327718DF831E3264876AC /* Pods-GemificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GemificationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GemificationTests/Pods-GemificationTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,6 +224,7 @@
 		0E40FE9D1D7703BB0004C562 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0EA999631D7A20ED00CF7C48 /* ProductAreaTableViewCell */,
 				0E40FE9E1D7703BB0004C562 /* SideMenuTableViewCell */,
 			);
 			path = Cell;
@@ -345,6 +355,8 @@
 		0E739D731D6C7A20000D3409 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				0EA9996B1D7A2FD600CF7C48 /* ProductDetailViewController */,
+				0EA999671D7A27CA00CF7C48 /* ProductAreaViewController */,
 				0E1A2AF11D78B8AF00D78CD8 /* MyQuizViewController */,
 				0E1A2AED1D78B87B00D78CD8 /* TipsViewController */,
 				0E1A2AE91D78B83F00D78CD8 /* ProductsViewController */,
@@ -366,6 +378,33 @@
 				0E40FEAF1D7706D60004C562 /* LoginViewController.m */,
 			);
 			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		0EA999631D7A20ED00CF7C48 /* ProductAreaTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0EA999641D7A212200CF7C48 /* ProductAreaTableViewCell.h */,
+				0EA999651D7A212200CF7C48 /* ProductAreaTableViewCell.m */,
+			);
+			name = ProductAreaTableViewCell;
+			sourceTree = "<group>";
+		};
+		0EA999671D7A27CA00CF7C48 /* ProductAreaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EA999681D7A280F00CF7C48 /* ProductAreaViewController.h */,
+				0EA999691D7A280F00CF7C48 /* ProductAreaViewController.m */,
+			);
+			name = ProductAreaViewController;
+			sourceTree = "<group>";
+		};
+		0EA9996B1D7A2FD600CF7C48 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EA9996C1D7A303600CF7C48 /* ProductDetailViewController.h */,
+				0EA9996D1D7A303600CF7C48 /* ProductDetailViewController.m */,
+			);
+			name = ProductDetailViewController;
 			sourceTree = "<group>";
 		};
 		A6D335A607F8A07380F9586D /* Pods */ = {
@@ -655,8 +694,11 @@
 			files = (
 				0E1A2AF01D78B89100D78CD8 /* TipsViewController.m in Sources */,
 				0E40FEB01D7706D60004C562 /* LoginViewController.m in Sources */,
+				0EA999661D7A212200CF7C48 /* ProductAreaTableViewCell.m in Sources */,
+				0EA9996E1D7A303600CF7C48 /* ProductDetailViewController.m in Sources */,
 				0E40FE9B1D7703350004C562 /* SideMenuViewController.m in Sources */,
 				0E1A2AF41D78B8C500D78CD8 /* MyQuizViewController.m in Sources */,
+				0EA9996A1D7A280F00CF7C48 /* ProductAreaViewController.m in Sources */,
 				0E47ED831D6B30DE00468B08 /* ViewController.m in Sources */,
 				0E40FE911D76FDF10004C562 /* lSAPIManager.m in Sources */,
 				0E1A2AE41D78B7B800D78CD8 /* ChatViewController.m in Sources */,
@@ -815,7 +857,7 @@
 				INFOPLIST_FILE = Gemification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rootfly.Gemification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rootflyinfo.gemificaiton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -829,7 +871,7 @@
 				INFOPLIST_FILE = Gemification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rootfly.Gemification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rootflyinfo.gemificaiton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

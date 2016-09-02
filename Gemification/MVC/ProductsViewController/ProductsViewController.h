@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ProductsViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnSideMenu;
+
 @end

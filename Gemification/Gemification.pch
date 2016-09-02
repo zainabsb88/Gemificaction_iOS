@@ -25,13 +25,16 @@
 #import "ProfileViewController.h"
 #import "ChatViewController.h"
 #import "SoftSkillViewController.h"
+#import "ProductAreaViewController.h"
 #import "ProductsViewController.h"
 #import "TipsViewController.h"
 #import "MyQuizViewController.h"
+#import "ProductDetailViewController.h"
 
 //>>>>>> Define Custom Cell <<<<<<<<<<//
 
 #import "SideMenuTableViewCell.h"
+#import "ProductAreaTableViewCell.h"
 
 //>>>>>> Define Third Party Library <<<<<<//
 

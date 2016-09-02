@@ -80,7 +80,7 @@
     }
     else if (indexPath.row == 5)
     {
-        ProductsViewController *pvc = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductsViewController"];
+        ProductAreaViewController *pvc = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductAreaViewController"];
         UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:pvc];
         [self.revealViewController pushFrontViewController:MainNav animated:YES];
         
