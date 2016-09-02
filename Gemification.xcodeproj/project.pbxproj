@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		0650F8006589F08792F80B2D /* libPods-Gemification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2579776EBE7ACF23EDA418 /* libPods-Gemification.a */; };
 		096AF877E68B5E3D060F1F43 /* libPods-GemificationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC84AAAABE4C1459396C39B /* libPods-GemificationTests.a */; };
+		0E1A2AE41D78B7B800D78CD8 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A2AE31D78B7B800D78CD8 /* ChatViewController.m */; };
+		0E1A2AE81D78B7FC00D78CD8 /* SoftSkillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A2AE71D78B7FB00D78CD8 /* SoftSkillViewController.m */; };
+		0E1A2AEC1D78B85600D78CD8 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A2AEB1D78B85600D78CD8 /* ProductsViewController.m */; };
+		0E1A2AF01D78B89100D78CD8 /* TipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A2AEF1D78B89100D78CD8 /* TipsViewController.m */; };
+		0E1A2AF41D78B8C500D78CD8 /* MyQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A2AF31D78B8C500D78CD8 /* MyQuizViewController.m */; };
+		0E40FE801D76FD480004C562 /* abcd.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E40FE7F1D76FD480004C562 /* abcd.png */; };
+		0E40FE911D76FDF10004C562 /* lSAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40FE841D76FDF10004C562 /* lSAPIManager.m */; };
+		0E40FE9B1D7703350004C562 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40FE9A1D7703350004C562 /* SideMenuViewController.m */; };
+		0E40FEAA1D7703BB0004C562 /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40FEA01D7703BB0004C562 /* SideMenuTableViewCell.m */; };
+		0E40FEB01D7706D60004C562 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40FEAF1D7706D60004C562 /* LoginViewController.m */; };
+		0E40FEB41D77070F0004C562 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40FEB31D77070F0004C562 /* SignUpViewController.m */; };
+		0E40FEB81D7707740004C562 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40FEB71D7707740004C562 /* DashboardViewController.m */; };
+		0E40FEBC1D7709630004C562 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E40FEBB1D7709630004C562 /* ProfileViewController.m */; };
 		0E47ED7D1D6B30DE00468B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E47ED7C1D6B30DE00468B08 /* main.m */; };
 		0E47ED801D6B30DE00468B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E47ED7F1D6B30DE00468B08 /* AppDelegate.m */; };
 		0E47ED831D6B30DE00468B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E47ED821D6B30DE00468B08 /* ViewController.m */; };
@@ -38,6 +51,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1A2AE21D78B7B800D78CD8 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ChatViewController/ChatViewController.h; sourceTree = "<group>"; };
+		0E1A2AE31D78B7B800D78CD8 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ChatViewController/ChatViewController.m; sourceTree = "<group>"; };
+		0E1A2AE61D78B7FB00D78CD8 /* SoftSkillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoftSkillViewController.h; path = SoftSkillViewController/SoftSkillViewController.h; sourceTree = "<group>"; };
+		0E1A2AE71D78B7FB00D78CD8 /* SoftSkillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoftSkillViewController.m; path = SoftSkillViewController/SoftSkillViewController.m; sourceTree = "<group>"; };
+		0E1A2AEA1D78B85600D78CD8 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductsViewController.h; path = ProductsViewController/ProductsViewController.h; sourceTree = "<group>"; };
+		0E1A2AEB1D78B85600D78CD8 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductsViewController.m; path = ProductsViewController/ProductsViewController.m; sourceTree = "<group>"; };
+		0E1A2AEE1D78B89100D78CD8 /* TipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipsViewController.h; path = TipsViewController/TipsViewController.h; sourceTree = "<group>"; };
+		0E1A2AEF1D78B89100D78CD8 /* TipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipsViewController.m; path = TipsViewController/TipsViewController.m; sourceTree = "<group>"; };
+		0E1A2AF21D78B8C500D78CD8 /* MyQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyQuizViewController.h; path = MyQuizViewController/MyQuizViewController.h; sourceTree = "<group>"; };
+		0E1A2AF31D78B8C500D78CD8 /* MyQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyQuizViewController.m; path = MyQuizViewController/MyQuizViewController.m; sourceTree = "<group>"; };
+		0E40FE7F1D76FD480004C562 /* abcd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abcd.png; sourceTree = "<group>"; };
+		0E40FE831D76FDF10004C562 /* ISAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISAPIManager.h; sourceTree = "<group>"; };
+		0E40FE841D76FDF10004C562 /* lSAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lSAPIManager.m; sourceTree = "<group>"; };
+		0E40FE861D76FDF10004C562 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0E40FE971D76FFCE0004C562 /* Gemification.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gemification.pch; sourceTree = "<group>"; };
+		0E40FE991D7703350004C562 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		0E40FE9A1D7703350004C562 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		0E40FE9F1D7703BB0004C562 /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
+		0E40FEA01D7703BB0004C562 /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
+		0E40FEAE1D7706D60004C562 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = LoginViewController.h/LoginViewController.h; sourceTree = "<group>"; };
+		0E40FEAF1D7706D60004C562 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = LoginViewController.h/LoginViewController.m; sourceTree = "<group>"; };
+		0E40FEB21D77070F0004C562 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = SignUpViewController/SignUpViewController.h; sourceTree = "<group>"; };
+		0E40FEB31D77070F0004C562 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = SignUpViewController/SignUpViewController.m; sourceTree = "<group>"; };
+		0E40FEB61D7707740004C562 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardViewController.h; path = DashboardViewController/DashboardViewController.h; sourceTree = "<group>"; };
+		0E40FEB71D7707740004C562 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardViewController.m; path = DashboardViewController/DashboardViewController.m; sourceTree = "<group>"; };
+		0E40FEBA1D7709630004C562 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ProfileViewController/ProfileViewController.h; sourceTree = "<group>"; };
+		0E40FEBB1D7709630004C562 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ProfileViewController/ProfileViewController.m; sourceTree = "<group>"; };
 		0E47ED781D6B30DE00468B08 /* Gemification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gemification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E47ED7C1D6B30DE00468B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E47ED7E1D6B30DE00468B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +133,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1A2AE51D78B7DE00D78CD8 /* SoftSkillViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A2AE61D78B7FB00D78CD8 /* SoftSkillViewController.h */,
+				0E1A2AE71D78B7FB00D78CD8 /* SoftSkillViewController.m */,
+			);
+			name = SoftSkillViewController;
+			sourceTree = "<group>";
+		};
+		0E1A2AE91D78B83F00D78CD8 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A2AEA1D78B85600D78CD8 /* ProductsViewController.h */,
+				0E1A2AEB1D78B85600D78CD8 /* ProductsViewController.m */,
+			);
+			name = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		0E1A2AED1D78B87B00D78CD8 /* TipsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A2AEE1D78B89100D78CD8 /* TipsViewController.h */,
+				0E1A2AEF1D78B89100D78CD8 /* TipsViewController.m */,
+			);
+			name = TipsViewController;
+			sourceTree = "<group>";
+		};
+		0E1A2AF11D78B8AF00D78CD8 /* MyQuizViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A2AF21D78B8C500D78CD8 /* MyQuizViewController.h */,
+				0E1A2AF31D78B8C500D78CD8 /* MyQuizViewController.m */,
+			);
+			name = MyQuizViewController;
+			sourceTree = "<group>";
+		};
+		0E40FE811D76FDF10004C562 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FE821D76FDF10004C562 /* API Manager */,
+				0E40FE851D76FDF10004C562 /* Constants */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0E40FE821D76FDF10004C562 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FE831D76FDF10004C562 /* ISAPIManager.h */,
+				0E40FE841D76FDF10004C562 /* lSAPIManager.m */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		0E40FE851D76FDF10004C562 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FE861D76FDF10004C562 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		0E40FE981D7703350004C562 /* SideMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FE991D7703350004C562 /* SideMenuViewController.h */,
+				0E40FE9A1D7703350004C562 /* SideMenuViewController.m */,
+			);
+			path = SideMenuViewController;
+			sourceTree = "<group>";
+		};
+		0E40FE9C1D7703BB0004C562 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FE9D1D7703BB0004C562 /* Cell */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		0E40FE9D1D7703BB0004C562 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FE9E1D7703BB0004C562 /* SideMenuTableViewCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0E40FE9E1D7703BB0004C562 /* SideMenuTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FE9F1D7703BB0004C562 /* SideMenuTableViewCell.h */,
+				0E40FEA01D7703BB0004C562 /* SideMenuTableViewCell.m */,
+			);
+			path = SideMenuTableViewCell;
+			sourceTree = "<group>";
+		};
+		0E40FEB11D7706F00004C562 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FEB21D77070F0004C562 /* SignUpViewController.h */,
+				0E40FEB31D77070F0004C562 /* SignUpViewController.m */,
+			);
+			name = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		0E40FEB51D7707410004C562 /* DashboardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FEB61D7707740004C562 /* DashboardViewController.h */,
+				0E40FEB71D7707740004C562 /* DashboardViewController.m */,
+			);
+			name = DashboardViewController;
+			sourceTree = "<group>";
+		};
+		0E40FEB91D77094F0004C562 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E40FEBA1D7709630004C562 /* ProfileViewController.h */,
+				0E40FEBB1D7709630004C562 /* ProfileViewController.m */,
+			);
+			name = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		0E40FEBD1D774C960004C562 /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E1A2AE21D78B7B800D78CD8 /* ChatViewController.h */,
+				0E1A2AE31D78B7B800D78CD8 /* ChatViewController.m */,
+			);
+			name = ChatViewController;
+			sourceTree = "<group>";
+		};
 		0E47ED6F1D6B30DE00468B08 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +290,8 @@
 		0E47ED7A1D6B30DE00468B08 /* Gemification */ = {
 			isa = PBXGroup;
 			children = (
+				0E40FE9C1D7703BB0004C562 /* Misc */,
+				0E40FE811D76FDF10004C562 /* Library */,
 				0E739D721D6C7A20000D3409 /* Images */,
 				0E739D731D6C7A20000D3409 /* MVC */,
 				0E47ED7E1D6B30DE00468B08 /* AppDelegate.h */,
@@ -137,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				0E47ED7C1D6B30DE00468B08 /* main.m */,
+				0E40FE971D76FFCE0004C562 /* Gemification.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +337,7 @@
 		0E739D721D6C7A20000D3409 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0E40FE7F1D76FD480004C562 /* abcd.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -169,6 +345,15 @@
 		0E739D731D6C7A20000D3409 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				0E1A2AF11D78B8AF00D78CD8 /* MyQuizViewController */,
+				0E1A2AED1D78B87B00D78CD8 /* TipsViewController */,
+				0E1A2AE91D78B83F00D78CD8 /* ProductsViewController */,
+				0E1A2AE51D78B7DE00D78CD8 /* SoftSkillViewController */,
+				0E40FEBD1D774C960004C562 /* ChatViewController */,
+				0E40FEB91D77094F0004C562 /* ProfileViewController */,
+				0E40FEB51D7707410004C562 /* DashboardViewController */,
+				0E40FEB11D7706F00004C562 /* SignUpViewController */,
+				0E40FE981D7703350004C562 /* SideMenuViewController */,
 				0E739D741D6C7A2A000D3409 /* LoginViewController */,
 			);
 			path = MVC;
@@ -177,6 +362,8 @@
 		0E739D741D6C7A2A000D3409 /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0E40FEAE1D7706D60004C562 /* LoginViewController.h */,
+				0E40FEAF1D7706D60004C562 /* LoginViewController.m */,
 			);
 			name = LoginViewController;
 			sourceTree = "<group>";
@@ -316,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E47ED8B1D6B30DE00468B08 /* LaunchScreen.storyboard in Resources */,
+				0E40FE801D76FD480004C562 /* abcd.png in Resources */,
 				0E47ED881D6B30DE00468B08 /* Assets.xcassets in Resources */,
 				0E47ED861D6B30DE00468B08 /* Main.storyboard in Resources */,
 			);
@@ -465,9 +653,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1A2AF01D78B89100D78CD8 /* TipsViewController.m in Sources */,
+				0E40FEB01D7706D60004C562 /* LoginViewController.m in Sources */,
+				0E40FE9B1D7703350004C562 /* SideMenuViewController.m in Sources */,
+				0E1A2AF41D78B8C500D78CD8 /* MyQuizViewController.m in Sources */,
 				0E47ED831D6B30DE00468B08 /* ViewController.m in Sources */,
+				0E40FE911D76FDF10004C562 /* lSAPIManager.m in Sources */,
+				0E1A2AE41D78B7B800D78CD8 /* ChatViewController.m in Sources */,
+				0E40FEB81D7707740004C562 /* DashboardViewController.m in Sources */,
 				0E47ED801D6B30DE00468B08 /* AppDelegate.m in Sources */,
 				0E47ED7D1D6B30DE00468B08 /* main.m in Sources */,
+				0E40FEBC1D7709630004C562 /* ProfileViewController.m in Sources */,
+				0E40FEAA1D7703BB0004C562 /* SideMenuTableViewCell.m in Sources */,
+				0E1A2AE81D78B7FC00D78CD8 /* SoftSkillViewController.m in Sources */,
+				0E1A2AEC1D78B85600D78CD8 /* ProductsViewController.m in Sources */,
+				0E40FEB41D77070F0004C562 /* SignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,7 +759,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -598,7 +798,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -611,7 +811,9 @@
 			baseConfigurationReference = C52E10CE61C23C525D4B0D85 /* Pods-Gemification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Gemification.pch";
 				INFOPLIST_FILE = Gemification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rootfly.Gemification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -623,7 +825,9 @@
 			baseConfigurationReference = 2120A5D046802887B04FB307 /* Pods-Gemification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Gemification.pch";
 				INFOPLIST_FILE = Gemification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rootfly.Gemification;
 				PRODUCT_NAME = "$(TARGET_NAME)";

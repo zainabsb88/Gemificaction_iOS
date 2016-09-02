@@ -2,6 +2,12 @@
 # platform :ios, '9.0'
 
 target 'Gemification' do
+    
+    pod 'TPKeyboardAvoiding'
+    pod 'MBProgressHUD'
+    pod 'SWRevealViewController'
+    pod 'IQKeyboardManager'
+    
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 

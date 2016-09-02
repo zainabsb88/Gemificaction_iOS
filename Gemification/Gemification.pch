@@ -1,0 +1,42 @@
+//
+//  Gemification.pch
+//  Gemification
+//
+//  Created by Macintosh HD on 31/08/16.
+//  Copyright © 2016 Arshdeep Singh. All rights reserved.
+//
+
+#ifndef Gemification_pch
+#define Gemification_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* Gemification_pch */
+
+@import UIKit;
+
+//>>>>>>> Define ViewController Classes <<<<<<<//
+
+#import "LoginViewController.h"
+#import "SignUpViewController.h"
+#import "DashBoardViewController.h"
+#import "ProfileViewController.h"
+#import "ChatViewController.h"
+#import "SoftSkillViewController.h"
+#import "ProductsViewController.h"
+#import "TipsViewController.h"
+#import "MyQuizViewController.h"
+
+//>>>>>> Define Custom Cell <<<<<<<<<<//
+
+#import "SideMenuTableViewCell.h"
+
+//>>>>>> Define Third Party Library <<<<<<//
+
+#import "AppDelegate.h"
+#import "SWRevealViewController.h"
+#import "ISAPIManager.h"
+#import "MBProgressHUD.h"
+#import "TPKeyboardAvoidingTableView.h"
