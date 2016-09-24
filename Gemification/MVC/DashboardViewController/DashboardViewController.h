@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface DashboardViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnSideMenu;
+@property (strong, nonatomic) IBOutlet UIButton *btnSideMenu;
 
 @end

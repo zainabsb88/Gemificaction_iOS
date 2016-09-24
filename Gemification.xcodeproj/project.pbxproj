@@ -34,6 +34,7 @@
 		0EA9996A1D7A280F00CF7C48 /* ProductAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA999691D7A280F00CF7C48 /* ProductAreaViewController.m */; };
 		0EA9996E1D7A303600CF7C48 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA9996D1D7A303600CF7C48 /* ProductDetailViewController.m */; };
 		6980521435FB1F3860003FE9 /* libPods-GemificationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A96FD8AC6794837E3FEC105 /* libPods-GemificationUITests.a */; };
+		FCF4AB1F1D971AA200D5DF1F /* TrainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4AB1E1D971AA200D5DF1F /* TrainingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		AC0449E32235D4F47F4DE291 /* Pods-GemificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GemificationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GemificationTests/Pods-GemificationTests.release.xcconfig"; sourceTree = "<group>"; };
 		AFC84AAAABE4C1459396C39B /* libPods-GemificationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GemificationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52E10CE61C23C525D4B0D85 /* Pods-Gemification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gemification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gemification/Pods-Gemification.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF4AB1D1D971AA200D5DF1F /* TrainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainingViewController.h; path = TrainingViewController/TrainingViewController.h; sourceTree = "<group>"; };
+		FCF4AB1E1D971AA200D5DF1F /* TrainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainingViewController.m; path = TrainingViewController/TrainingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +358,7 @@
 		0E739D731D6C7A20000D3409 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				FCF4AB1C1D971A8900D5DF1F /* TrainingViewController */,
 				0EA9996B1D7A2FD600CF7C48 /* ProductDetailViewController */,
 				0EA999671D7A27CA00CF7C48 /* ProductAreaViewController */,
 				0E1A2AF11D78B8AF00D78CD8 /* MyQuizViewController */,
@@ -418,6 +422,15 @@
 				A666A15DBEB1E07191336D67 /* Pods-GemificationUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCF4AB1C1D971A8900D5DF1F /* TrainingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCF4AB1D1D971AA200D5DF1F /* TrainingViewController.h */,
+				FCF4AB1E1D971AA200D5DF1F /* TrainingViewController.m */,
+			);
+			name = TrainingViewController;
 			sourceTree = "<group>";
 		};
 		FF007C169E45D4D1594FCF88 /* Frameworks */ = {
@@ -500,7 +513,7 @@
 		0E47ED701D6B30DE00468B08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Arshdeep Singh";
 				TargetAttributes = {
 					0E47ED771D6B30DE00468B08 = {
@@ -710,6 +723,7 @@
 				0E1A2AE81D78B7FC00D78CD8 /* SoftSkillViewController.m in Sources */,
 				0E1A2AEC1D78B85600D78CD8 /* ProductsViewController.m in Sources */,
 				0E40FEB41D77070F0004C562 /* SignUpViewController.m in Sources */,
+				FCF4AB1F1D971AA200D5DF1F /* TrainingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,8 +792,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -823,8 +839,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -853,12 +871,14 @@
 			baseConfigurationReference = C52E10CE61C23C525D4B0D85 /* Pods-Gemification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HUMAN RB SOLUTIONS - CONSULTORES EM RECURSOS HUMANOS, LDA (CF2NLF9HXY)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Gemification.pch";
 				INFOPLIST_FILE = Gemification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rootflyinfo.gemificaiton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d8586484-5ace-473d-87a2-689a124a6a65";
 			};
 			name = Debug;
 		};
@@ -867,12 +887,14 @@
 			baseConfigurationReference = 2120A5D046802887B04FB307 /* Pods-Gemification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HUMAN RB SOLUTIONS - CONSULTORES EM RECURSOS HUMANOS, LDA (CF2NLF9HXY)";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Gemification.pch";
 				INFOPLIST_FILE = Gemification/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rootflyinfo.gemificaiton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d8586484-5ace-473d-87a2-689a124a6a65";
 			};
 			name = Release;
 		};

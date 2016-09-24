@@ -19,10 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NameArray = [NSMutableArray arrayWithObjects:@"",@"Dashboard",@"Profile",@"Chat",@"Soft Skills",@"Products",@"Tips",@"My Quiz"@"Competitions", nil];
+    NameArray = [NSMutableArray arrayWithObjects:@"",@"DASHBOARD",@"TRAINING",@"LEARNING PRODUCTS",@"GIVE A TIP",@"STUDIO",@"PRODUCT DAY",@"CONTACTS"@"LOG OUT", nil];
 
     // Do any additional setup after loading the view.
 }
+
+#pragma mark - TableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        
+        return 90;
+    }
+    return 50;
+}
+
+#pragma mark - TableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -41,7 +53,7 @@
     else
     {
         SideMenuTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell1"];
-        cell.backgroundColor = [UIColor colorWithRed:96.0/255.0 green:96.0/255.0 blue:96.0/255.0 alpha:1];
+//        cell.backgroundColor = [UIColor colorWithRed:96.0/255.0 green:96.0/255.0 blue:96.0/255.0 alpha:1];
         cell.lblName.text =[NameArray objectAtIndex:indexPath.row];
         
         return cell;
@@ -61,43 +73,43 @@
     else if (indexPath.row == 2)
     {
         
-        ProfileViewController *pvc = [self.storyboard instantiateViewControllerWithIdentifier:@"ProfileViewController"];
-        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:pvc];
-       [self.revealViewController pushFrontViewController:MainNav animated:YES];
-        
-    }
-    else if (indexPath.row == 3)
-    {
-      ChatViewController *cvc = [self.storyboard instantiateViewControllerWithIdentifier:@"ChatViewController"];
-        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:cvc];
-        [self.revealViewController pushFrontViewController:MainNav animated:YES];    }
-    else if (indexPath.row == 4)
-    {
-     SoftSkillViewController *ssvc = [self.storyboard instantiateViewControllerWithIdentifier:@"SoftSkillViewController"];
-        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:ssvc];
+        TrainingViewController *tvc = [self.storyboard instantiateViewControllerWithIdentifier:@"TrainingViewController"];
+        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:tvc];
         [self.revealViewController pushFrontViewController:MainNav animated:YES];
         
     }
-    else if (indexPath.row == 5)
+    else if (indexPath.row == 3)
     {
         ProductAreaViewController *pvc = [self.storyboard instantiateViewControllerWithIdentifier:@"ProductAreaViewController"];
         UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:pvc];
         [self.revealViewController pushFrontViewController:MainNav animated:YES];
         
     }
-    else if (indexPath.row == 6)
+    else if (indexPath.row == 4)
     {
         TipsViewController *pvc = [self.storyboard instantiateViewControllerWithIdentifier:@"TipsViewController"];
         UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:pvc];
         [self.revealViewController pushFrontViewController:MainNav animated:YES];
-       
+        
     }
-    else if (indexPath.row == 7)
-    {
-        MyQuizViewController *pvc = [self.storyboard instantiateViewControllerWithIdentifier:@"MyQuizViewController"];
-        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:pvc];
-        [self.revealViewController pushFrontViewController:MainNav animated:YES];
-    }
+//    else if (indexPath.row == 3)
+//    {
+//      ChatViewController *cvc = [self.storyboard instantiateViewControllerWithIdentifier:@"ChatViewController"];
+//        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:cvc];
+//        [self.revealViewController pushFrontViewController:MainNav animated:YES];    }
+//    else if (indexPath.row == 4)
+//    {
+//     SoftSkillViewController *ssvc = [self.storyboard instantiateViewControllerWithIdentifier:@"SoftSkillViewController"];
+//        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:ssvc];
+//        [self.revealViewController pushFrontViewController:MainNav animated:YES];
+//        
+//    }
+//    else if (indexPath.row == 7)
+//    {
+//        MyQuizViewController *pvc = [self.storyboard instantiateViewControllerWithIdentifier:@"MyQuizViewController"];
+//        UINavigationController *MainNav= [[UINavigationController alloc]initWithRootViewController:pvc];
+//        [self.revealViewController pushFrontViewController:MainNav animated:YES];
+//    }
     
 }
 

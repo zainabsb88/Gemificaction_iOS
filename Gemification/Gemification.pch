@@ -30,6 +30,7 @@
 #import "TipsViewController.h"
 #import "MyQuizViewController.h"
 #import "ProductDetailViewController.h"
+#import "TrainingViewController.h"
 
 //>>>>>> Define Custom Cell <<<<<<<<<<//
 
